@@ -1,0 +1,190 @@
+/* public/css/shop.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.decorated-heading {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-md-4 {
+    flex-basis: calc(20% - 20px);
+    margin-bottom: 30px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ffffff;
+    padding: 15px;
+}
+
+.card-body {
+    padding: 5px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    margin-bottom: 15px;
+}
+
+.btn-info {
+    background-color: #142c15;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn-info:hover {
+    background-color: #81e384;
+    border-radius: 12px;
+
+    
+}
+
+.btn-info1 {
+    background-color: #142c15;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 14px;
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.btn-info1:hover {
+    background-color: #ffffff;
+    border-radius: 12px;
+
+    
+}
+
+ /*increment */
+ .quantity-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quantity-box button {
+    margin: 0 5px; /* Adjust the margin as needed */
+}
+
+.quantity {
+    font-size: 18px; /* Adjust the font size as needed */
+    margin: 0 10px; /* Adjust the margin as needed */
+}
+
+
+
+/* Custom CSS for buttons */
+.btn-custom {
+    display: inline-block; /* Ensure the buttons are inline elements */
+    margin-right: 10px; /* Add some space between the buttons */
+}
+
+/* Optional: Style for the form wrapper */
+.button-group {
+    display: flex; /* Use flexbox to align items horizontally */
+    justify-content: space-between; /* Distribute space evenly between items */
+}
+
+/* Custom CSS for buttons */
+.btn-custom {
+    display: inline-block; /* Ensure the buttons are inline elements */
+    margin-right: 10px; /* Add some space between the buttons */
+    width: auto; /* Set the width to auto to allow the content to determine the size */
+}
+
+/* Optional: Style for the form wrapper */
+.button-group {
+    display: flex; /* Use flexbox to align items horizontally */
+    justify-content: space-between; /* Distribute space evenly between items */
+}
+
+/* Custom width for the Details button */
+.btn-details {
+    width: 90px; /* Set a fixed width for the Details button */
+}
+
+/* Custom width for the Add to Cart button */
+.btn-add-to-cart {
+    width: 90px; /* Set a fixed width for the Add to Cart button */
+}
+
+
+.bg-image {
+    background-image: url('/path/to/your/image.jpg'); /* Replace with the actual path to your image */
+    background-repeat: no-repeat;
+    background-position: center center; /* Position the background image at the center */
+    background-attachment: fixed; /* Keep the background image fixed during scroll */
+    background-size: cover; /* Cover the entire container with the background image */
+    min-height: 500px; /* Minimum height for the container */
+}
+
+
+/* Search Bar */
+.search-bar {
+    position: relative;
+    width: 500px;
+    max-width: 500px; /* Adjust the maximum width as needed */
+}
+
+.search-bar input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.search-bar button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+    background: transparent;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.search-bar i {
+    color: #333; /* Adjust the color as needed */
+}

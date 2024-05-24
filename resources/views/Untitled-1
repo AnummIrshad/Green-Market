@@ -1,0 +1,8 @@
+-- database: /Users/anummirshad/Desktop/SSP-GreenMarket/database/database.sqlite
+
+-- Use the ▷ button in the top right corner to run the entire file.
+INSERT INTO products (product_name, description, unit_price, slug, vendor_name, item_category, stocks, product_image_url, created_at, updated_at, category_id)
+VALUES 
+    ('Carrot', 'Fresh and crunchy carrot.', 1.5, 'carrot', 'Fresh Farms', 'Vegetables', 100, 'carrot.jpg', datetime('now'), datetime('now'), 1),
+    ('Broccoli', 'Healthy and nutritious broccoli.', 2.0, 'broccoli', 'Green Harvest', 'Vegetables', 80, 'broccoli.jpg', datetime('now'), datetime('now'), 1),
+    ('Spinach', 'Tender and delicious spinach leaves.', 1.8, 'spinach', 'Organic Greens', 'Vegetables', 120, 'spinach.jpg', datetime('now'), datetime('now'), 1);
